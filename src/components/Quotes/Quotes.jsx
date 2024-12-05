@@ -4,15 +4,15 @@ function Quotes() {
   const quotes = [
     {
       quote:
-        "Should we fear <span>h4ckers?</span> Intention is at the heart of this discussion.",
+        "Should we fear <span>h4ckers?</span> Intention is at the heart of this <span>discussion</span>. ",
       author: "Kevin Mitnick",
     },
     {
-      quote: "No technology that’s connected to the internet is unhackable.",
+      quote: "No <span>technology</span>  that’s connected to the internet is <span>unhackable</span>. ",
       author: "Kevin Mitnick",
     },
     {
-      quote: "The best defense against a nuke is not another nuke, but a code.",
+      quote: "The best <span>defense</span>  against a nuke is not another nuke, but a <span>code</span>. ",
       author: "Abhijit Naskar",
     },
   ];
