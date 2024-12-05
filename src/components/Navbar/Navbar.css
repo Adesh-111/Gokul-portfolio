@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap");
+
+body {
+  margin: 0;
+  border: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  border: 1px solid;
+  background: #1d1d1d;
+  height: 75px;
+}
+
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.navbar ul a {
+  text-decoration: none;
+  list-style: none;
+  font-family: Bowlby One;
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 13.08px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #E9E3DC;
+  transition: 0.2s ease;
+}
+
+.navbar ul .contact-link{
+    width:100px;
+    background-color: #C76526;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1d1d1d;
+}
+
+.navbar ul a:hover{
+    color: #C76526;
+}
+
+.navbar ul .contact-link:hover{
+    color: #E9E3DC;
+}
