@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap");
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #e9e3dc;
+}
+
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #e9e3dc;
+  height: 700px;
+}
+
+.quote-box h2 {
+  font-family: Bowlby One;
+  font-size: 100px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 88.9px;
+  letter-spacing: -0.02em;
+}
+
+.quote-box p {
+  font-family: Geo;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 35.56px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+
+.quote-box span{
+    color: aqua;
+}
