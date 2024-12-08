@@ -5,7 +5,7 @@ import "./Contact.css";
 function Contact() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="contact-container">
         <div className="contact">
           <div className="contact-details">
@@ -23,7 +23,7 @@ function Contact() {
             <input type="text" name="name" placeholder="Your name" />
             <input type="text" name="email" placeholder="Your email" />
             <textarea
-              name=""
+              name="message"
               cols="30"
               rows="10"
               placeholder="Add a message"
