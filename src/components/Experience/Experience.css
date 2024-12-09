@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.experience-container {
+  background-image: url("../../assets/Bottom-bg.png");
+}
+
+.experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.experience-title {
+  text-align: center;
+  padding: 15px 50px;
+  height: 100px;
+  background-color: #d1ef53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Bowlby One;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 29.07px;
+  border-radius: 10px;
+  color: #1e1e1e;
+}
+
+.experience-card {
+  display: flex;
+  gap: 20px;
+  backdrop-filter: blur(35px);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 0px 0px 100px 0px #00000040;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.experience-card img {
+  width: 600px;
+  height: 350px;
+  border-radius: 50px;
+}
+
+.experience-card .exp-desc h2 {
+  font-family: Bowlby One;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 38.23px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #e9e3dc;
+}
+
+.exp-desc h4 {
+  font-family: Bowlby One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 21.34px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #d1ef53;
+}
+
+.exp-desc p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33.58px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  max-width: 500px;
+  color: #e9e3dc;
+}
