@@ -1,0 +1,48 @@
+.certifications-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.certifications {
+  min-width: 1000px;
+  background-color: #e9e3dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 20px;
+  
+}
+
+.certifications h3 {
+  font-family: Bowlby One;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 56.04px;
+  text-align: center;
+  color: #C76526;
+  margin: 20px;
+}
+
+.certifications ul{
+    list-style: none;
+}
+
+.certifications p {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40.5px;
+  text-align: justified;
+  color: #1E1E1E;
+  margin: 0;
+}
+
+.certifications span{
+    color: #C76526;
+    font-weight: 450;
+}

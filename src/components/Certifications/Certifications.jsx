@@ -18,13 +18,19 @@ function Certifications() {
 
   return (
     <>
-      <div className="certifications">
-        <h3>Certifications</h3>
-        {certifications.map((certification, index) =>(
+      <div className="certifications-container">
+        <div className="certifications">
+          <h3>Certifications</h3>
+          {certifications.map((certification, index) => (
             <ul key={index}>
-                <li><p>{certification.name} - <span>{certification.company}</span></p></li>
+              <li>
+                <p>
+                  {certification.name} - <span>{certification.company}</span>
+                </p>
+              </li>
             </ul>
-        ))}
+          ))}
+        </div>
       </div>
     </>
   );
