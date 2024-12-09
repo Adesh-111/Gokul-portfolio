@@ -76,17 +76,17 @@ textarea:focus {
   font-weight: 900;
   line-height: 29.05px;
   text-align: center;
-  background-color: #C76526;
+  background-color: #c76526;
   border: none;
   cursor: pointer;
   transition: 0.3s ease-in;
 }
 
-.contact-inputs button:hover{
-    color: #e9e3dc;
+.contact-inputs button:hover {
+  color: #e9e3dc;
 }
 
-.contact .contact-img{
-    display: flex;
-    justify-content: center ;
+.contact .contact-img {
+  display: flex;
+  justify-content: center;
 }
