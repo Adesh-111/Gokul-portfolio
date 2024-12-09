@@ -1,0 +1,94 @@
+.cybersec-container {
+  background: url("../../../assets/Cybersec-bg.svg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cybersec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cybersec-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+  backdrop-filter: blur(35px);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 0px 0px 100px 0px #00000040;
+}
+
+.cybersec-card button {
+  align-self: flex-start;
+  width: 80px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: #e9e3dc;
+  cursor: pointer;
+}
+
+.cybersec-card .cybersec-img {
+  width: 900px;
+  border-radius: 50px;
+  padding: 0px 30px;
+  padding-top: 10px;
+}
+
+.cybersec-card .cybersec-icon {
+  width: 300px;
+}
+
+.cybersec-card p {
+  text-align: justify;
+  width: 700px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33.58px;
+  letter-spacing: -0.02em;
+  margin-top: -20px;
+  color: #e9e3dc;
+}
+
+.key-responsibilities {
+  margin: 50px;
+  backdrop-filter: blur(35px);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 0px 0px 100px 0px #00000040;
+  width: 900px;
+  padding: 10px 30px;
+}
+
+.key-responsibilities p,.key-responsibilities li {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 33.58px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #d1ef53;
+}
+
+.key-responsibilities li{
+    color: #e9e3dc;
+    font-size: 20px;
+}
