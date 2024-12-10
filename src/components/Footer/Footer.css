@@ -99,3 +99,13 @@
   color: #1e1e1e;
   border-radius: 10px;
 }
+
+.footer-container li{
+  transition: 0.3s ease-in;
+}
+
+
+.footer-container li:hover{
+  color: #e9e3dc;
+  margin-left: 3px;
+}

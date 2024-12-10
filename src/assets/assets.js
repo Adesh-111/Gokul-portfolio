@@ -5,6 +5,7 @@ import exImg2 from "./Ex-img2.png";
 import bottomBack from "./Bottom-bg.png";
 import cybersecIcon from "./Cybersec-icon.svg";
 import cybersecBg from "./Cybersec-icon.svg";
+import GokulKrishna from "./GokulKrishna.jpeg"
 
 const assets = {
     Logo,
@@ -13,7 +14,8 @@ const assets = {
     exImg2,
     bottomBack,
     cybersecIcon,
-    cybersecBg
+    cybersecBg,
+    GokulKrishna
 };
 
 export default assets;

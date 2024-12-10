@@ -3,6 +3,10 @@ import "./Certifications.css";
 function Certifications() {
   const certifications = [
     {
+      name: "Certified Penetration Tester",
+      company : "Red Team Hacker Academy"
+    },
+    {
       name: "Google Cybersecurity Professional",
       company: "Google",
     },
@@ -13,7 +17,7 @@ function Certifications() {
     {
       name: "Network Defense Essentials (NDE)",
       company: "EC Council",
-    },
+    }
   ];
 
   return (
