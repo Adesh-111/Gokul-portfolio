@@ -1,0 +1,79 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  max-width: 1100px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.about-title {
+  background-color: #d1ef53;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: Bowlby One;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 62.23px;
+  letter-spacing: -0.02em;
+  color: #1e1e1e;
+  border-radius: 20px;
+}
+
+.about-details {
+  display: flex;
+  gap: 25px;
+  margin: 15px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-details img {
+  width: 700px;
+  height: 620px;
+  border-radius: 25px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+.about-details p {
+  font-family: Inter;
+  font-size: 19.3px;
+  font-weight: 500;
+  line-height: 31.48px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin: 0;
+  padding: 12px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  color: #E9E3DC;
+  height: 590px;
+}
+
+.about-details p span{
+    color: #D1EF53;
+}
+
+.skills{
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+
+.skills ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.skills ul img{
+    width: 50px;
+    height: 50px;
+    filter: grayscale(100%);
+}
