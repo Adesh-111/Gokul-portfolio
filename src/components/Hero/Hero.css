@@ -1,6 +1,32 @@
-.hero-container{
-    width: 100vw;
-    background: url("../../assets/Bg-top.png");
-    background-size: cover;
+.hero-container {
+  width: 100vw;
+  background: url("../../assets/Bg-top.png");
+  background-size: cover;
+  margin: 0;
 }
 
+.hero .hero-title {
+  font-family: Bowlby One;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 113.79px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.hero h1{
+    margin: 0;
+    color: #E9E3DC;
+}
+
+.hero-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-details h4{
+    writing-mode: vertical-rl; 
+  transform: rotate(360deg); 
+  text-align: center;
+}

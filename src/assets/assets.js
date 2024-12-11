@@ -23,7 +23,10 @@ import s4 from "./service4.svg";
 import s5 from "./service5.svg";
 import listStyle from "./listStyle.svg";
 import Arnold from "./Arnold.jpeg";
-import profilePic from "./profilePic.svg"
+import profilePic from "./profilePic.svg";
+import webSec from "./web-sec.svg";
+import pen from "./pen.svg";
+import cybersecHero from "./cybersec-hero.svg"
 
 const assets = {
   Logo,
@@ -51,7 +54,10 @@ const assets = {
   s5,
   listStyle,
   Arnold,
-  profilePic
+  profilePic,
+  webSec,
+  pen,
+  cybersecHero
 };
 
 export default assets;
