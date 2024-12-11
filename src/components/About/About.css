@@ -256,6 +256,11 @@
   border-radius: 15px;
 }
 
+.resume-section i{
+  margin-right: 10px;
+  font-size: 34px;
+}
+
 .conquer img{
   width: 99%;
   border-radius: 20px;

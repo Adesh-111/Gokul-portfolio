@@ -22,7 +22,8 @@ import s3 from "./service3.svg";
 import s4 from "./service4.svg";
 import s5 from "./service5.svg";
 import listStyle from "./listStyle.svg";
-import Arnold from "./Arnold.jpeg"
+import Arnold from "./Arnold.jpeg";
+import profilePic from "./profilePic.svg"
 
 const assets = {
   Logo,
@@ -49,7 +50,8 @@ const assets = {
   s4,
   s5,
   listStyle,
-  Arnold
+  Arnold,
+  profilePic
 };
 
 export default assets;
