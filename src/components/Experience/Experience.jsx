@@ -42,9 +42,6 @@ function Experience() {
             </div>
           ))}
         </div>
-        <Communities />
-        <Certifications />
-        <Footer />
       </div>
     </>
   );

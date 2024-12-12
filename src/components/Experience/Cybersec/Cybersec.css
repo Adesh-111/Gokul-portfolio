@@ -3,6 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .cybersec {
@@ -91,4 +93,73 @@
 .key-responsibilities li{
     color: #e9e3dc;
     font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .cybersec-card{
+    margin: 40px
+  }
+
+  .cybersec-card .cybersec-img{
+    width: 600px;
+  }
+
+  .cybersec-card .cybersec-icon{
+    width: 200px;
+  }
+
+  .cybersec-card p{
+    width: 500px;
+    font-size: 20px;
+  }
+
+  .key-responsibilities{
+    width: 600px;
+  }
+
+  .key-responsibilities p{
+    font-size: 18px;
+  }
+
+  .key-responsibilities li{
+    font-size: 18px;
+  }
+
+  .key-responsibilities ul{
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .cybersec-card{
+    margin: 50px
+  }
+
+  .cybersec-card .cybersec-img{
+    width: 350px;
+  }
+
+  .cybersec-card .cybersec-icon{
+    width: 150px;
+  }
+
+  .cybersec-card p{
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .key-responsibilities{
+    width: 350px;
+  }
+
+  .key-responsibilities p{
+    font-size: 12px;
+  }
+
+  .key-responsibilities li{
+    font-size: 12px;
+    line-height: 30px;
+  }
+
 }

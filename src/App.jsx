@@ -11,9 +11,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Quotes />
-      <Experience />
+      <Cybersec />
+      <Footer />
     </>
   );
 }
