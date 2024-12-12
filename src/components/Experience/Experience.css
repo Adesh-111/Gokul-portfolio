@@ -14,6 +14,10 @@
   gap: 30px;
 }
 
+.experience a{
+  text-decoration: none;
+}
+
 .experience-title {
   text-align: center;
   padding: 15px 50px;

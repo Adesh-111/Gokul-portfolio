@@ -41,31 +41,28 @@ function About() {
                 <img src={assets.python} alt="" />
               </li>
               <li>
-                <img src={assets.html} alt="" />
+                <img src={assets.splush} alt="" />
               </li>
               <li>
-                <img src={assets.mysql} alt="" />
+                <img src={assets.metasploit} alt="" />
               </li>
               <li>
-                <img src={assets.java} alt="" />
+                <img src={assets.Tor} alt="" />
               </li>
               <li>
                 <img src={assets.premierPro} alt="" />
               </li>
               <li>
-                <img src={assets.photoShop} alt="" />
+                <img src={assets.wireshark} alt="" />
               </li>
               <li>
-                <img src={assets.figma} alt="" />
+                <img src={assets.linux} alt="" />
               </li>
               <li>
-                <img src={assets.unity} alt="" />
+                <img src={assets.Nessus} alt="" />
               </li>
               <li>
-                <img src={assets.unreal} alt="" />
-              </li>
-              <li>
-                <img src={assets.blender} alt="" />
+                <img src={assets.burpSuite} alt="" />
               </li>
             </ul>
           </div>
@@ -127,7 +124,7 @@ function About() {
                       recommendations to enhance DLP effectiveness.
                     </p>
                   </li>
-                  <li style={{width: "500px"}}>
+                  <li style={{ width: "500px" }}>
                     <h4>Web Penetration Testing</h4>
                     <p>
                       <img src={assets.listStyle} alt="" />
@@ -168,7 +165,7 @@ function About() {
               </button>
             </a>
           </div>
-          <div className="conquer" >
+          <div className="conquer">
             <img src={assets.Arnold} alt="" />
           </div>
         </div>

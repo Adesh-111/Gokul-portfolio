@@ -15,35 +15,43 @@ const router = createBrowserRouter([
   },
   {
     path: "/experience/cybersec",
-    element: <>
-    <Navbar />
-    <Cybersec />
-    <Footer />
-    </>,
+    element: (
+      <>
+        <Navbar />
+        <Cybersec />
+        <Footer />
+      </>
+    ),
   },
   {
     path: "/experience",
-    element: <>
-    <Navbar />
-    <Experience />
-    <Footer />
-    </>,
+    element: (
+      <>
+        <Navbar />
+        <Experience />
+        <Footer />
+      </>
+    ),
   },
   {
     path: "/contact",
-    element: <>
-    <Navbar />
-    <Contact />
-    <Footer />
-    </>,
+    element: (
+      <>
+        <Navbar />
+        <Contact />
+        <Footer />
+      </>
+    ),
   },
   {
     path: "/about",
-    element: <>
-    <Navbar />
-    <About />
-    <Footer />
-    </>,
+    element: (
+      <>
+        <Navbar />
+        <About />
+        <Footer />
+      </>
+    ),
   },
 ]);
 

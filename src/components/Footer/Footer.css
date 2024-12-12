@@ -98,6 +98,7 @@
   line-height: 17.44px;
   color: #1e1e1e;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .footer-container li {

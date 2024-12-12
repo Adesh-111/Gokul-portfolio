@@ -43,31 +43,28 @@ function Hero() {
                     <img src={assets.python} alt="" />
                   </li>
                   <li>
-                    <img src={assets.html} alt="" />
+                    <img src={assets.splush} alt="" />
                   </li>
                   <li>
-                    <img src={assets.mysql} alt="" />
+                    <img src={assets.metasploit} alt="" />
                   </li>
                   <li>
-                    <img src={assets.java} alt="" />
+                    <img src={assets.Tor} alt="" />
                   </li>
                   <li>
                     <img src={assets.premierPro} alt="" />
                   </li>
                   <li>
-                    <img src={assets.photoShop} alt="" />
+                    <img src={assets.wireshark} alt="" />
                   </li>
                   <li>
-                    <img src={assets.figma} alt="" />
+                    <img src={assets.linux} alt="" />
                   </li>
                   <li>
-                    <img src={assets.unity} alt="" />
+                    <img src={assets.Nessus} alt="" />
                   </li>
                   <li>
-                    <img src={assets.unreal} alt="" />
-                  </li>
-                  <li>
-                    <img src={assets.blender} alt="" />
+                    <img src={assets.burpSuite} alt="" />
                   </li>
                 </ul>
               </div>

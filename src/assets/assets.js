@@ -6,16 +6,15 @@ import bottomBack from "./Bottom-bg.png";
 import cybersecIcon from "./Cybersec-icon.svg";
 import cybersecBg from "./Cybersec-icon.svg";
 import GokulKrishna from "./GokulKrishna.jpeg";
-import blender from "./blender.svg";
-import figma from "./figma.svg";
-import html from "./html.svg";
-import java from "./java.svg";
-import mysql from "./mySQL.svg";
-import photoShop from "./photoshop.svg";
+import burpSuite from "./burpsuite.svg";
+import linux from "./linux.svg";
+import splush from "./splush.svg";
+import Tor from "./Tor.svg";
+import metasploit from "./metasploit.svg";
+import wireshark from "./wireshark.svg";
 import premierPro from "./premier-pro.svg";
 import python from "./python.svg";
-import unity from "./unity.svg";
-import unreal from "./unrealEngine.svg";
+import Nessus from "./Nessus.svg";
 import s1 from "./service1.svg";
 import s2 from "./service2.svg";
 import s3 from "./service3.svg";
@@ -26,7 +25,7 @@ import Arnold from "./Arnold.jpeg";
 import profilePic from "./profilePic.svg";
 import webSec from "./web-sec.svg";
 import pen from "./pen.svg";
-import cybersecHero from "./cybersec-hero.svg"
+import cybersecHero from "./cybersec-hero.svg";
 
 const assets = {
   Logo,
@@ -37,16 +36,15 @@ const assets = {
   cybersecIcon,
   cybersecBg,
   GokulKrishna,
-  blender,
-  figma,
-  html,
-  java,
-  mysql,
-  photoShop,
+  burpSuite,
+  linux,
+  splush,
+  Tor,
+  metasploit,
+  wireshark,
   premierPro,
   python,
-  unity,
-  unreal,
+  Nessus,
   s1,
   s2,
   s3,
@@ -57,7 +55,7 @@ const assets = {
   profilePic,
   webSec,
   pen,
-  cybersecHero
+  cybersecHero,
 };
 
 export default assets;

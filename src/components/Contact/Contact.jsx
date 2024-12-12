@@ -16,7 +16,7 @@ function Contact() {
             <p>
               I'd love to hear from you, whether you just want to shoot the
               breeze or if you're interested in my work and want to discuss a
-              potential opportunity to achieve great things together!
+              potential opportNessus to achieve great things together!
             </p>
           </div>
           <div className="contact-inputs">
