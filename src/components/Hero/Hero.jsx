@@ -10,17 +10,23 @@ function Hero() {
             <h1>GOKUL KRISHNA</h1>
           </div>
           <div className="hero-details">
-            {window.innerWidth > "768px" ? <h4>
-              S<br />
-              C<br />
-              R<br />
-              O<br />
-              L<br />L<i className="fa-solid fa-arrow-down"></i>
-            </h4> : null}
+            {window.innerWidth > 768 ? (
+              <h4>
+                S<br />
+                C<br />
+                R<br />
+                O<br />
+                L<br />L<i className="fa-solid fa-arrow-down"></i>
+              </h4>
+            ) : null}
+
             <div className="hero-image">
               <img src={assets.profilePic} alt="" className="profile" />
               <div className="hero-about">
-                <h3>ABOUT <br />MYSELF</h3>
+                <h3>
+                  ABOUT <br />
+                  MYSELF
+                </h3>
                 <p>
                   I am <b>Gokul Krishna</b>, a <b>cybersecurity specialist</b>,
                   adept at developing innovative solutions for intricate

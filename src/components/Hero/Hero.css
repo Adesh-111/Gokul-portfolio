@@ -88,6 +88,10 @@
   max-width: 700px;
 }
 
+.hero-skills ul {
+  padding-left: 0;
+}
+
 .hero-skills {
   align-self: stretch;
   margin-bottom: 50px;
@@ -102,4 +106,86 @@
   width: 130px;
   height: 60px;
   margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  .hero-details {
+    flex-direction: column;
+  }
+
+  .hero-details h4 {
+    display: none;
+  }
+
+  .hero-image {
+    margin: 0;
+  }
+
+  .hero-details .hero-image .profile {
+    width: 500px;
+  }
+
+  .hero-about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-about h3 {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .hero-about p {
+    font-size: 15px;
+  }
+
+  .hero-details .hero-skills img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .hero-services {
+    flex-direction: row;
+  }
+
+  .hero-services img {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    line-height: 70px;
+  }
+
+  .hero-details .hero-image .profile {
+    width: 400px;
+    margin-top: 70px;
+  }
+
+  .hero-about {
+    margin: 0 40px;
+  }
+
+  .hero-details .hero-about h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .hero-about p {
+    font-size: 12px;
+  }
+
+  .hero-skills {
+    margin: 0 40px;
+  }
+
+  .hero-details .hero-skills img {
+    width: 20px;
+    height: 20px;
+  }
 }
