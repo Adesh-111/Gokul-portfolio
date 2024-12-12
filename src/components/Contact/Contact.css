@@ -82,6 +82,7 @@ textarea:focus {
   cursor: pointer;
   transition: 0.3s ease-in;
   color: #1d1d1d;
+  border-radius: 15px;
 }
 
 .contact-inputs button:hover {

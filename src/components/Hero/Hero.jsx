@@ -52,9 +52,6 @@ function Hero() {
                     <img src={assets.Tor} alt="" />
                   </li>
                   <li>
-                    <img src={assets.premierPro} alt="" />
-                  </li>
-                  <li>
                     <img src={assets.wireshark} alt="" />
                   </li>
                   <li>

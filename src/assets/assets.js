@@ -12,7 +12,6 @@ import splush from "./splush.svg";
 import Tor from "./Tor.svg";
 import metasploit from "./metasploit.svg";
 import wireshark from "./wireshark.svg";
-import premierPro from "./premier-pro.svg";
 import python from "./python.svg";
 import Nessus from "./Nessus.svg";
 import s1 from "./service1.svg";
@@ -42,7 +41,6 @@ const assets = {
   Tor,
   metasploit,
   wireshark,
-  premierPro,
   python,
   Nessus,
   s1,

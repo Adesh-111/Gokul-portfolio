@@ -12,6 +12,8 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.1",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "dotenv": "^16.4.7",
+    "emailjs-com": "^3.2.0",
     "font-awesome": "^4.7.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

@@ -7,9 +7,11 @@ function Cybersec() {
       <div className="cybersec-container">
         <div className="cybersec">
           <div className="cybersec-card">
-            <button>
-              <i className="fa-solid fa-arrow-left"></i>
-            </button>
+            <a href="/experience">
+              <button>
+                <i className="fa-solid fa-arrow-left"></i>
+              </button>
+            </a>
             <img src={assets.exImg1} alt="" className="cybersec-img" />
             <img src={assets.cybersecIcon} alt="" className="cybersec-icon" />
             <p>

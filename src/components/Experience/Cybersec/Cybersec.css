@@ -30,7 +30,7 @@
   box-shadow: 0px 0px 100px 0px #00000040;
 }
 
-.cybersec-card button {
+.cybersec-card a, .cybersec-card button {
   align-self: flex-start;
   width: 80px;
   height: 50px;
