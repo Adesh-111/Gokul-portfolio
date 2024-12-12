@@ -158,12 +158,16 @@
 }
 
 @media screen and (max-width: 480px) {
+  .hero {
+    overflow: hidden;
+  }
+
   h1 {
     line-height: 70px;
   }
 
   .hero-details .hero-image .profile {
-    width: 400px;
+    width: 370px;
     margin-top: 70px;
   }
 
