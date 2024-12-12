@@ -108,6 +108,11 @@
   margin-right: 20px;
 }
 
+.hero-services .cyber-hero{
+    width: 150px;
+    height: 70px;
+}
+
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 60px;
@@ -154,6 +159,10 @@
 
   .hero-services img {
     width: 80px;
+  }
+
+  .hero-services .cyber-hero{
+    width: 100px;
   }
 }
 

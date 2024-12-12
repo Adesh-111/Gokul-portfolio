@@ -2,6 +2,8 @@
 
 .experience-container {
   background-image: url("../../assets/Bottom-bg.png");
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .experience {
@@ -79,4 +81,40 @@
   text-align: left;
   max-width: 500px;
   color: #e9e3dc;
+}
+
+@media screen and (max-width: 768px) {
+  .experience-title {
+    padding: 20px;
+    font-size: 40px;
+  }
+
+  .experience-card {
+    flex-direction: column;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .experience-title {
+    font-size: 30px;
+    margin: 20px;
+  }
+
+  .experience-card img {
+    width: 300px;
+    height: auto;
+  }
+
+  .experience-card .exp-desc h2 {
+    font-size: 30px;
+  }
+
+  .exp-desc h4 {
+    font-size: 20px;
+  }
+
+  .exp-desc p {
+    font-size: 15px;
+  }
 }

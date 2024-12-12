@@ -75,7 +75,7 @@ function Hero() {
             <div className="hero-services">
               <img src={assets.pen} alt="" />
               <img src={assets.webSec} alt="" />
-              <img src={assets.cybersecHero} alt="" />
+              <img src={assets.cybersecHero} alt="" className="cyber-hero" />
             </div>
           </div>
         </div>

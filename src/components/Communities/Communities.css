@@ -24,11 +24,12 @@
   text-align: center;
 }
 
-.communities-images{
-    display: flex;
-    gap: 20px;
+.communities-images {
+  display: flex;
+  gap: 20px;
 }
 
 .communities img {
   height: 100px;
+  mix-blend-mode: darken;
 }
