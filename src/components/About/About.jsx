@@ -127,7 +127,7 @@ function About() {
                       recommendations to enhance DLP effectiveness.
                     </p>
                   </li>
-                  <li>
+                  <li style={{width: "500px"}}>
                     <h4>Web Penetration Testing</h4>
                     <p>
                       <img src={assets.listStyle} alt="" />

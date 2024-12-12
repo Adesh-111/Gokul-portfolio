@@ -89,6 +89,7 @@
   display: flex;
   justify-content: space-evenly;
   list-style: none;
+  padding-left: 0;
 }
 
 .skills ul img {
@@ -120,6 +121,7 @@
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   box-shadow: 0px 0px 100px 0px #00000040;
+  padding-left: 0;
 }
 
 .service-list img {
@@ -256,13 +258,144 @@
   border-radius: 15px;
 }
 
-.resume-section i{
+.resume-section i {
   margin-right: 10px;
   font-size: 34px;
 }
 
-.conquer img{
+.conquer img {
   width: 99%;
   border-radius: 20px;
   border: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    width: 600px;
+  }
+
+  .about-title {
+    font-size: 40px;
+  }
+
+  .about-details {
+    flex-direction: column;
+  }
+
+  .about-details img {
+    width: 500px;
+    height: auto;
+  }
+
+  .services {
+    flex-direction: column;
+  }
+
+  .services .service-list {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .srv-bottom ul {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .srv-bottom ul li {
+    max-width: 500px;
+    height: 200px;
+    border: none;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .srv-bottom p {
+    font-size: 15px;
+  }
+
+  .resume-section {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .resume-section button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:480px) {
+
+  .about{
+    width: 320px;
+  }
+
+  .about-title{
+    font-size: 40px;
+  }
+
+  .about .about-desc {
+    font-size: 12px;
+    height: fit-content;
+  }
+
+  .skills ul img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .about-details{
+    flex-direction: column;
+  }
+
+  .about-details img{
+    width: 300px;
+    height: auto;
+  }
+
+
+
+  .services{
+    flex-direction: column;
+  }
+
+  .services .service-list{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .srv-top p{
+    font-size: 14px;
+  }
+
+  .srv-bottom ul{
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .srv-bottom ul li{
+    max-width: 300px;
+    height: 290px;
+    border: none;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .srv-bottom p{
+    font-size: 15px;
+  }
+
+  .resume-section{
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .resume-section p{
+    font-size: 15px;
+  }
+
+  .resume-section button{
+    width: 100%;
+  }
+
 }
