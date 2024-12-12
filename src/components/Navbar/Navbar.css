@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap");
 
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   border: 0;
@@ -10,11 +14,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
+  padding: 0 40px !important;
   height: 75px;
   position: sticky;
+  box-sizing: border-box;
+  overflow: hidden;
 }
-
 
 .navbar ul {
   display: flex;
@@ -38,20 +43,59 @@ body {
   transition: 0.2s ease;
 }
 
-.navbar ul .contact-link{
-    width:100px;
-    background-color: #C76526;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #1d1d1d;
+.navbar ul .contact-link {
+  width: 100px;
+  background-color: #C76526;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1d1d1d;
 }
 
-.navbar ul a:hover{
-    color: #C76526;
+.navbar ul a:hover {
+  color: #C76526;
 }
 
-.navbar ul .contact-link:hover{
-    color: #E9E3DC;
+.navbar ul .contact-link:hover {
+  color: #E9E3DC;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+    height: auto;
+  }
+
+  .navbar ul {
+    gap: 20px;
+  }
+
+  .navbar ul a {
+    font-size: 14px;
+  }
+
+  .navbar ul .contact-link {
+    height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .navbar {
+    padding: 0px 10px !important;
+  }
+
+  .navbar .nav-img img{
+    width:80px;
+    height: 100%;
+  }
+
+  .navbar ul {
+    gap: 15px;
+  }
+
+  .navbar ul a {
+    font-size: 10px;
+  }
 }
