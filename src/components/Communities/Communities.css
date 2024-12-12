@@ -33,3 +33,34 @@
   height: 100px;
   mix-blend-mode: darken;
 }
+
+@media screen and (max-width: 768px) {
+  .communities h2{
+    font-size: 40px;
+  }
+
+  .communities{
+    margin: 0 20px;
+  }
+
+  .communities-images img{
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .communities h2{
+    font-size: 20px;
+    line-height: 20px;
+
+  }
+
+  .communities{
+    margin: 0 20px;
+    padding: 20px;
+  }
+
+  .communities-images img{
+    height: 40px;
+  }
+}
