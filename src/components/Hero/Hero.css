@@ -88,19 +88,18 @@
   max-width: 700px;
 }
 
-
-.hero-skills{
-    align-self: stretch;
-    margin-bottom: 50px;
+.hero-skills {
+  align-self: stretch;
+  margin-bottom: 50px;
 }
 
-.hero-services{
-    display: flex;
-    flex-direction: column;
+.hero-services {
+  display: flex;
+  flex-direction: column;
 }
 
-.hero-services img{
-    width: 130px;
-    height: 60px;
-    margin-right: 20px;
+.hero-services img {
+  width: 130px;
+  height: 60px;
+  margin-right: 20px;
 }
