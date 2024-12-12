@@ -6,12 +6,13 @@ import Cybersec from "./components/Experience/Cybersec/Cybersec";
 import About from "./components/About/About";
 import Hero from "./components/Hero/Hero";
 import Communities from "./components/Communities/Communities";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Cybersec />
+      <Contact />
       <Footer />
     </>
   );
