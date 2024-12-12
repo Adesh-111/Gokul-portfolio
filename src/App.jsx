@@ -7,12 +7,17 @@ import About from "./components/About/About";
 import Hero from "./components/Hero/Hero";
 import Communities from "./components/Communities/Communities";
 import Contact from "./components/Contact/Contact";
+import Certifications from "./components/Certifications/Certifications";
 
 function App() {
   return (
     <>
       <Navbar />
-      <About />
+      <Hero />
+      <Quotes />
+      <Experience />
+      <Communities />
+      <Certifications />
       <Footer />
     </>
   );

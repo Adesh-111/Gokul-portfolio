@@ -10,13 +10,13 @@ function Navbar() {
             <img src={assets.Logo} alt="" />
           </div>
           <ul className="nav-links">
-            <a href="" className="nav-link">
+            <a href="/experience" className="nav-link">
               <li>EXPERIENCE</li>
             </a>
-            <a href="" className="nav-link">
+            <a href="/about" className="nav-link">
               <li>ABOUT</li>
             </a>
-            <a href="" className="nav-link contact-link">
+            <a href="/contact" className="nav-link contact-link">
               <li>CONTACT</li>
             </a>
           </ul>
