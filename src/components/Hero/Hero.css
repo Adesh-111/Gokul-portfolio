@@ -111,6 +111,7 @@
 .hero-services .cyber-hero{
     width: 150px;
     height: 70px;
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {

@@ -15,7 +15,6 @@
   flex-direction: column;
   padding: 30px;
   border-radius: 20px;
-  
 }
 
 .certifications h3 {
@@ -24,12 +23,13 @@
   font-weight: 400;
   line-height: 56.04px;
   text-align: center;
-  color: #C76526;
+  color: #c76526;
   margin: 20px;
 }
 
-.certifications ul{
-    list-style: none;
+.certifications ul {
+  list-style: none;
+  padding: 0;
 }
 
 .certifications p {
@@ -38,11 +38,44 @@
   font-weight: 400;
   line-height: 40.5px;
   text-align: justified;
-  color: #1E1E1E;
+  color: #1e1e1e;
   margin: 0;
 }
 
-.certifications span{
-    color: #C76526;
-    font-weight: 450;
+.certifications span {
+  color: #c76526;
+  font-weight: 450;
+}
+
+@media screen and (max-width: 768px) {
+  .certifications h3 {
+    font-size: 40px;
+  }
+
+  .certifications {
+    margin: 0 50px;
+    min-width: 400px;
+    width: max-content;
+  }
+
+  .certifications p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .certifications h3 {
+    font-size: 20px;
+  }
+
+  .certifications {
+    margin: 0 50px;
+    min-width: 150px;
+  }
+
+  .certifications p {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 2px;
+  }
 }
