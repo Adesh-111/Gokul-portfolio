@@ -110,8 +110,6 @@
   margin-left: 3px;
 }
 
-
-
 @media (max-width: 768px) {
   .footer {
     flex-direction: column;

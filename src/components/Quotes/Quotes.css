@@ -61,15 +61,14 @@
   }
 }
 
-
-@media screen and (max-width: 480px){
-  .quote-box h2{
+@media screen and (max-width: 480px) {
+  .quote-box h2 {
     font-size: 30px;
     line-height: 30px;
     padding: 10px;
   }
 
-  .quote-box{
+  .quote-box {
     padding: 10px 10px;
     height: 400px;
   }

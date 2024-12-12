@@ -8,11 +8,13 @@ function Quotes() {
       author: "Kevin Mitnick",
     },
     {
-      quote: "No <span>technology</span>  that’s connected to the internet is <span>unhackable</span>. ",
+      quote:
+        "No <span>technology</span>  that’s connected to the internet is <span>unhackable</span>. ",
       author: "Kevin Mitnick",
     },
     {
-      quote: "The best <span>defense</span>  against a nuke is not another nuke, but a <span>code</span>. ",
+      quote:
+        "The best <span>defense</span>  against a nuke is not another nuke, but a <span>code</span>. ",
       author: "Abhijit Naskar",
     },
   ];

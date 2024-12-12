@@ -27,6 +27,7 @@
 .communities-images {
   display: flex;
   gap: 20px;
+  padding-left: 50px;
 }
 
 .communities img {
@@ -35,31 +36,31 @@
 }
 
 @media screen and (max-width: 768px) {
-  .communities h2{
+  .communities h2 {
     font-size: 40px;
   }
 
-  .communities{
+  .communities {
     margin: 0 20px;
   }
 
-  .communities-images img{
+  .communities-images img {
     height: 80px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .communities h2{
+  .communities h2 {
     font-size: 20px;
     line-height: 20px;
   }
 
-  .communities{
+  .communities {
     margin: 0 20px;
     padding: 20px;
   }
 
-  .communities-images img{
+  .communities-images img {
     height: 40px;
   }
 }

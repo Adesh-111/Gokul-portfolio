@@ -323,13 +323,12 @@
   }
 }
 
-@media screen and (max-width:480px) {
-
-  .about{
+@media screen and (max-width: 480px) {
+  .about {
     width: 320px;
   }
 
-  .about-title{
+  .about-title {
     font-size: 40px;
   }
 
@@ -338,64 +337,61 @@
     height: fit-content;
   }
 
-  .skills ul img{
+  .skills ul img {
     width: 20px;
     height: 20px;
   }
 
-  .about-details{
+  .about-details {
     flex-direction: column;
   }
 
-  .about-details img{
+  .about-details img {
     width: 300px;
     height: auto;
   }
 
-
-
-  .services{
+  .services {
     flex-direction: column;
   }
 
-  .services .service-list{
+  .services .service-list {
     justify-content: center;
     align-items: center;
     padding: 20px;
   }
 
-  .srv-top p{
+  .srv-top p {
     font-size: 14px;
   }
 
-  .srv-bottom ul{
+  .srv-bottom ul {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
   }
 
-  .srv-bottom ul li{
+  .srv-bottom ul li {
     max-width: 300px;
     height: 290px;
     border: none;
     border-bottom: 3px solid rgba(255, 255, 255, 0.1);
   }
 
-  .srv-bottom p{
+  .srv-bottom p {
     font-size: 15px;
   }
 
-  .resume-section{
+  .resume-section {
     flex-direction: column;
     margin-bottom: 15px;
   }
 
-  .resume-section p{
+  .resume-section p {
     font-size: 15px;
   }
 
-  .resume-section button{
+  .resume-section button {
     width: 100%;
   }
-
 }

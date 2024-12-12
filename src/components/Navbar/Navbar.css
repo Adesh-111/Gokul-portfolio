@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap");
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -39,13 +39,13 @@ body {
   text-align: right;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #E9E3DC;
+  color: #e9e3dc;
   transition: 0.2s ease;
 }
 
 .navbar ul .contact-link {
   width: 100px;
-  background-color: #C76526;
+  background-color: #c76526;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -54,11 +54,11 @@ body {
 }
 
 .navbar ul a:hover {
-  color: #C76526;
+  color: #c76526;
 }
 
 .navbar ul .contact-link:hover {
-  color: #E9E3DC;
+  color: #e9e3dc;
 }
 
 @media (max-width: 768px) {
@@ -81,13 +81,12 @@ body {
 }
 
 @media (max-width: 480px) {
-
   .navbar {
     padding: 0px 10px !important;
   }
 
-  .navbar .nav-img img{
-    width:80px;
+  .navbar .nav-img img {
+    width: 80px;
     height: 100%;
   }
 

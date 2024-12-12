@@ -108,10 +108,10 @@
   margin-right: 20px;
 }
 
-.hero-services .cyber-hero{
-    width: 150px;
-    height: 70px;
-    margin: 0;
+.hero-services .cyber-hero {
+  width: 150px;
+  height: 70px;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -162,7 +162,7 @@
     width: 80px;
   }
 
-  .hero-services .cyber-hero{
+  .hero-services .cyber-hero {
     width: 100px;
   }
 }
