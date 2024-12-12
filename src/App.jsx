@@ -5,6 +5,7 @@ import Experience from "./components/Experience/Experience";
 import Cybersec from "./components/Experience/Cybersec/Cybersec";
 import About from "./components/About/About";
 import Hero from "./components/Hero/Hero";
+import Communities from "./components/Communities/Communities";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <Quotes />
+      <Experience />
     </>
   );
 }

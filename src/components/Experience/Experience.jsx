@@ -1,5 +1,6 @@
 import assets from "../../assets/assets";
 import Certifications from "../Certifications/Certifications";
+import Communities from "../Communities/Communities";
 import Footer from "../Footer/Footer";
 import "./Experience.css";
 
@@ -41,6 +42,7 @@ function Experience() {
             </div>
           ))}
         </div>
+        <Communities />
         <Certifications />
         <Footer />
       </div>
