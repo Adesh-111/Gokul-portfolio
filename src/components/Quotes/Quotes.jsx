@@ -23,7 +23,7 @@ function Quotes() {
     <>
       <div className="quote-container">
         {quotes.map((quote, index) => (
-          <div className="quote-box" key={index}>
+          <div className="quote-box" key={index} data-aos="fade-left" >
             <h2 dangerouslySetInnerHTML={{ __html: quote.quote }} />
             <p>- {quote.author}</p>
           </div>

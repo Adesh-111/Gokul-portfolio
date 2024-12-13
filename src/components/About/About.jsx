@@ -10,8 +10,8 @@ function About() {
             <h3>ABOUT ME</h3>
           </div>
           <div className="about-details">
-            <img src={assets.GokulKrishna} alt="" className="about-img" />
-            <p className="about-desc">
+            <img src={assets.GokulKrishna} alt="" className="about-img" data-aos="fade-right" />
+            <p className="about-desc" data-aos="fade-left">
               Born and raised in <span>Aruppukottai</span>, I am currently
               pursuing an M.Sc. in Cyber Forensics and Information Security at
               the University of Madras. I hold a{" "}
@@ -35,7 +35,7 @@ function About() {
               unique storytelling and artistic expression.
             </p>
           </div>
-          <div className="skills">
+          <div className="skills" data-aos="fade-up">
             <ul className="skills-list">
               <li>
                 <img src={assets.python} alt="" />
@@ -64,7 +64,7 @@ function About() {
             </ul>
           </div>
           <div className="services">
-            <div className="services-tab">
+            <div className="services-tab" data-aos="fade-right">
               <ul className="service-list">
                 <li>
                   <img src={assets.s1} alt="" />
@@ -88,7 +88,7 @@ function About() {
                 </li>
               </ul>
             </div>
-            <div className="service-details">
+            <div className="service-details" data-aos="fade-left">
               <div className="srv-top">
                 <p>
                   Skilled in cybersecurity, I combine a solid foundation in
@@ -147,7 +147,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="resume-section">
+          <div className="resume-section" data-aos="fade-up">
             <p>
               I’m eager to embark on an exciting journey of innovation in
               cybersecurity. Whether you’re a recruiter or a fellow
@@ -162,7 +162,7 @@ function About() {
               </button>
             </a>
           </div>
-          <div className="conquer">
+          <div className="conquer" data-aos="fade-up">
             <img src={assets.Arnold} alt="" />
           </div>
         </div>

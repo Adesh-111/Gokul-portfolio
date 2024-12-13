@@ -22,7 +22,7 @@ function Certifications() {
 
   return (
     <>
-      <div className="certifications-container">
+      <div className="certifications-container" data-aos="fade-left" >
         <div className="certifications">
           <h3>Certifications</h3>
           {certifications.map((certification, index) => (

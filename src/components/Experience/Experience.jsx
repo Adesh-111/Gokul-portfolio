@@ -26,7 +26,7 @@ const experiences = [
 function Experience() {
   return (
     <>
-      <div className="experience-container">
+      <div className="experience-container" data-aos="fade-up">
         <div className="experience">
           <div className="experience-title">
             <h3>RECENT EXPERIENCE</h3>

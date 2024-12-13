@@ -1,10 +1,19 @@
 import "./Hero.css";
 import assets from "../../assets/assets";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+  offset: 200, 
+  duration: 1000, 
+  easing: 'ease-in-out', 
+  delay: 300, 
+});
 
 function Hero() {
   return (
     <>
-      <div className="hero-container">
+      <div className="hero-container" data-aos="fade-left">
         <div className="hero">
           <div className="hero-title">
             <h1>GOKUL KRISHNA</h1>

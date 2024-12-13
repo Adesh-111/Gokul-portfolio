@@ -3,7 +3,7 @@ import "./Communities.css";
 function Communities() {
   return (
     <>
-      <div className="communities-container">
+      <div className="communities-container" data-aos="fade-left">
         <div className="communities">
           <h2 className="communities-title">CommNessus Involvements</h2>
           <div className="communities-images">

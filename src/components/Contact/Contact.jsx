@@ -21,7 +21,7 @@ function Contact() {
     e.preventDefault();
 
     emailjs
-      .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formData, "YOUR_PUBLIC_KEY")
+      .send("service_ctjkgfc", "template_90ky2lu", formData, "s1jZolVaXmIgrzufb")
       .then(
         () => {
           setStatus("Message sent successfully!");

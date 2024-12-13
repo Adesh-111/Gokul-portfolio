@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <>
-      <div className="footer-container">
+      <div className="footer-container" data-aos="fade-up">
         <div className="footer">
           <div className="footer-details">
             <h3>
