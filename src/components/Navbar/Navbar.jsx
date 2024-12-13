@@ -6,9 +6,9 @@ function Navbar() {
     <>
       <div className="navbar-container">
         <div className="navbar">
-          <div className="nav-img">
+          <a href="/" className="nav-img">
             <img src={assets.Logo} alt="" />
-          </div>
+          </a>
           <ul className="nav-links">
             <a href="/experience" className="nav-link">
               <li>EXPERIENCE</li>

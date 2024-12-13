@@ -4,11 +4,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 AOS.init({
-  offset: 200, 
-  duration: 1000, 
-  easing: 'ease-in-out', 
-  delay: 300, 
+  duration: 1500,
+  once: false, 
 });
+AOS.refresh(); 
+
 
 function Hero() {
   return (
