@@ -10,7 +10,12 @@ function About() {
             <h3>ABOUT ME</h3>
           </div>
           <div className="about-details">
-            <img src={assets.GokulKrishna} alt="" className="about-img" data-aos="fade-right" />
+            <img
+              src={assets.GokulKrishna}
+              alt=""
+              className="about-img"
+              data-aos="fade-right"
+            />
             <p className="about-desc" data-aos="fade-left">
               Born and raised in <span>Aruppukottai</span>, I am currently
               pursuing an M.Sc. in Cyber Forensics and Information Security at
@@ -38,13 +43,19 @@ function About() {
           <div className="skills" data-aos="fade-up">
             <ul className="skills-list">
               <li>
-                <img src={assets.python} alt="" />
+                <img
+                  src="https://i0.wp.com/tinkercademy.com/wp-content/uploads/2018/04/python-icon.png?ssl=1"
+                  alt=""
+                />
               </li>
               <li>
-                <img src={assets.splush} alt="" />
+                <img src={assets.splunk} alt="" />
               </li>
               <li>
-                <img src={assets.metasploit} alt="" />
+                <img
+                  src="https://dashboard.snapcraft.io/site_media/appmedia/2022/08/metasploit-framework-logo.svg.png"
+                  alt=""
+                />
               </li>
               <li>
                 <img src={assets.Tor} alt="" />
@@ -59,7 +70,10 @@ function About() {
                 <img src={assets.Nessus} alt="" />
               </li>
               <li>
-                <img src={assets.burpSuite} alt="" />
+                <img
+                  src="https://img.informer.com/icons_mac/png/128/404/404676.png"
+                  alt=""
+                />
               </li>
             </ul>
           </div>

@@ -8,12 +8,12 @@ import cybersecBg from "./Cybersec-icon.svg";
 import GokulKrishna from "./GokulKrishna.jpeg";
 import burpSuite from "./burpsuite.svg";
 import linux from "./linux.svg";
-import splush from "./splush.svg";
+import splunk from "./splunk.png";
 import Tor from "./Tor.svg";
 import metasploit from "./metasploit.svg";
-import wireshark from "./wireshark.svg";
+import wireshark from "./wireshark.png";
 import python from "./python.svg";
-import Nessus from "./Nessus.svg";
+import Nessus from "./Nessus.png";
 import s1 from "./service1.svg";
 import s2 from "./service2.svg";
 import s3 from "./service3.svg";
@@ -38,7 +38,7 @@ const assets = {
   GokulKrishna,
   burpSuite,
   linux,
-  splush,
+  splunk,
   Tor,
   metasploit,
   wireshark,

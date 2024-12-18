@@ -67,7 +67,7 @@ function Footer() {
           </div>
         </div>
         <p className="developer-signature">
-          Made with ❤️ by <a href="https://linktr.ee/adesh_d">Adesh D</a>
+          Made with ❤️ by <a href="https://scrollme.today/adesh">Adesh D</a>
         </p>
       </div>
     </>

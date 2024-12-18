@@ -361,11 +361,11 @@
     padding: 20px;
   }
 
-  .srv-top{
+  .srv-top {
     flex-direction: column;
   }
 
-  .srv-top i{
+  .srv-top i {
     transform: rotate(90deg);
   }
 

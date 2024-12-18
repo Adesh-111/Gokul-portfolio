@@ -55,7 +55,7 @@ function Hero() {
                     <img src="https://i0.wp.com/tinkercademy.com/wp-content/uploads/2018/04/python-icon.png?ssl=1" alt="" />
                   </li>
                   <li>
-                    <img src="https://img.icons8.com/color/512/splunk.png" alt="" />
+                    <img src={assets.splunk} alt="" />
                   </li>
                   <li>
                     <img src="https://dashboard.snapcraft.io/site_media/appmedia/2022/08/metasploit-framework-logo.svg.png" alt="" />
@@ -64,7 +64,7 @@ function Hero() {
                     <img src={assets.Tor} alt="" />
                   </li>
                   <li>
-                    <img src="https://e1.pngegg.com/pngimages/342/752/png-clipart-macos-app-icons-wireshark.png" alt="" />
+                    <img src={assets.wireshark} alt="" />
                   </li>
                   <li>
                     <img src={assets.linux} alt="" />
