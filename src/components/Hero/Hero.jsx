@@ -70,7 +70,7 @@ function Hero() {
                     <img src={assets.Nessus} alt="" />
                   </li>
                   <li>
-                    <img src={assets.burpSuite} alt="" />
+                    <img src="https://w7.pngwing.com/pngs/276/718/png-transparent-burp-suite-alt-macos-bigsur-icon.png" alt="" />
                   </li>
                 </ul>
               </div>
