@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 AOS.init({
   offset: 100, 
-  duration: 600,
+  duration: 1000,
   easing: "ease-in-out", 
   once: true, 
   mirror: false,
