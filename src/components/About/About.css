@@ -57,7 +57,7 @@
   border: 3px solid rgba(255, 255, 255, 0.2);
   border-radius: 15px;
   color: #e9e3dc;
-  height: 590px;
+  height: 616px;
   backdrop-filter: blur(35px);
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -255,6 +255,7 @@
   padding: 60px;
   background-color: #d1ef53;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .resume-section i {
@@ -358,6 +359,14 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+  }
+
+  .srv-top{
+    flex-direction: column;
+  }
+
+  .srv-top i{
+    transform: rotate(90deg);
   }
 
   .srv-top p {

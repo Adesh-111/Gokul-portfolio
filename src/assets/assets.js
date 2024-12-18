@@ -25,6 +25,7 @@ import profilePic from "./profilePic.svg";
 import webSec from "./web-sec.svg";
 import pen from "./pen.svg";
 import cybersecHero from "./cybersec-hero.svg";
+import CPT from "./CPT.jpg";
 
 const assets = {
   Logo,
@@ -54,6 +55,7 @@ const assets = {
   webSec,
   pen,
   cybersecHero,
+  CPT,
 };
 
 export default assets;

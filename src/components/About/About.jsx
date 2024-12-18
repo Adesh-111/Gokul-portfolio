@@ -122,7 +122,7 @@ function About() {
                     </p>
                   </li>
                   <li style={{ width: "500px" }}>
-                    <h4>Web Penetration Testing</h4>
+                    <h4>Web Pentesting</h4>
                     <p>
                       <img src={assets.listStyle} alt="" />
                       Performed comprehensive web penetration testing to uncover
@@ -155,7 +155,7 @@ function About() {
               Together, we can explore opportunities and share insights to shape
               a safer digital future!
             </p>
-            <a href="">
+            <a href="https://drive.google.com/file/d/1JYHrkQECRx6f5ut6dfVcsLKcofMOJKU_/view?usp=drivesdk">
               <button>
                 <i className="fa-solid fa-download"></i>
                 MY RESUME

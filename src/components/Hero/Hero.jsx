@@ -52,13 +52,13 @@ function Hero() {
               <div className="skills hero-skills">
                 <ul className="skills-list">
                   <li>
-                    <img src={assets.python} alt="" />
+                    <img src="https://i0.wp.com/tinkercademy.com/wp-content/uploads/2018/04/python-icon.png?ssl=1" alt="" />
                   </li>
                   <li>
-                    <img src={assets.splush} alt="" />
+                    <img src="https://img.icons8.com/color/512/splunk.png" alt="" />
                   </li>
                   <li>
-                    <img src={assets.metasploit} alt="" />
+                    <img src="https://dashboard.snapcraft.io/site_media/appmedia/2022/08/metasploit-framework-logo.svg.png" alt="" />
                   </li>
                   <li>
                     <img src={assets.Tor} alt="" />
@@ -73,7 +73,7 @@ function Hero() {
                     <img src={assets.Nessus} alt="" />
                   </li>
                   <li>
-                    <img src="https://w7.pngwing.com/pngs/276/718/png-transparent-burp-suite-alt-macos-bigsur-icon.png" alt="" />
+                    <img src="https://img.informer.com/icons_mac/png/128/404/404676.png" alt="" />
                   </li>
                 </ul>
               </div>
