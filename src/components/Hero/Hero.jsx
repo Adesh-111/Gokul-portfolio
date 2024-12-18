@@ -61,7 +61,7 @@ function Hero() {
                     <img src={assets.Tor} alt="" />
                   </li>
                   <li>
-                    <img src={assets.wireshark} alt="" />
+                    <img src="https://e1.pngegg.com/pngimages/342/752/png-clipart-macos-app-icons-wireshark.png" alt="" />
                   </li>
                   <li>
                     <img src={assets.linux} alt="" />

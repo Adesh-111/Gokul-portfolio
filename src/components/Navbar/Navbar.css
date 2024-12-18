@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 
-html{
+body{
   margin: 0;
   border: 0;
   background-color: #1d1d1d;
   overflow-x: hidden;
 }
+
+[data-aos] {
+  overflow: hidden;
+}
+
 
 .navbar {
   display: flex;
