@@ -4,13 +4,18 @@
   box-sizing: border-box;
 }
 
-body{
+body, html{
   margin: 0;
   border: 0;
   background-color: #1d1d1d;
-
+  overflow-x: hidden;
 }
 
+[data-aos="fade-right"],
+[data-aos="fade-left"] {
+  margin: 0;
+  padding: 0;
+}
 
 
 .navbar {
