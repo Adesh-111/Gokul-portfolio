@@ -5,32 +5,39 @@ import "./Contact.css";
 
 function Contact() {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
+    from_name: "",
+    from_email: "",
     message: "",
   });
 
-  const [status, setStatus] = useState("");
+  const [status, setStatus] = useState({ type: "", message: "" });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+  const handleChange = ({ target: { name, value } }) => {
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    emailjs
-      .send("service_ctjkgfc", "template_90ky2lu", formData, "s1jZolVaXmIgrzufb")
-      .then(
-        () => {
-          setStatus("Message sent successfully!");
-          setFormData({ name: "", email: "", message: "" });
-        },
-        () => {
-          setStatus("Failed to send message. Please try again.");
-        }
+    try {
+      const response = await emailjs.send(
+        // .send("", "", formData, "")
+        "service_ctjkgfc",
+        "template_90ky2lu",
+        formData,
+        "s1jZolVaXmIgrzufb"
       );
+
+      if (response.status === 200) {
+        setStatus({ type: "success", message: "Message sent successfully!" });
+        setFormData({ from_name: "", from_email: "", message: "" });
+      } else {
+        throw new Error("Failed to send message");
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+      setStatus({ type: "error", message: "Failed to send message. Please try again." });
+    }
   };
 
   return (
@@ -38,8 +45,7 @@ function Contact() {
       <div className="contact">
         <div className="contact-details">
           <h3>
-            Get in <br />
-            Touch
+            Get in <br /> Touch
           </h3>
           <p>
             I'd love to hear from you, whether you just want to shoot the breeze
@@ -47,20 +53,21 @@ function Contact() {
             opportunity to achieve great things together!
           </p>
         </div>
+
         <form className="contact-inputs" onSubmit={handleSubmit}>
           <input
             type="text"
-            name="name"
+            name="from_name"
             placeholder="Your name"
-            value={formData.name}
+            value={formData.from_name}
             onChange={handleChange}
             required
           />
           <input
             type="email"
-            name="email"
+            name="from_email"
             placeholder="Your email"
-            value={formData.email}
+            value={formData.from_email}
             onChange={handleChange}
             required
           />
@@ -74,10 +81,13 @@ function Contact() {
             required
           ></textarea>
           <button type="submit">SEND</button>
-          {status && <p className="status-message">{status}</p>}
+          {status.message && (
+            <p className={`status-message ${status.type}`}>{status.message}</p>
+          )}
         </form>
+
         <div className="contact-img">
-          <img src={assets.contactImg} alt="contact-img" />
+          <img src={assets.contactImg} alt="Contact illustration" />
         </div>
       </div>
     </div>
