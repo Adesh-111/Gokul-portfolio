@@ -73,7 +73,7 @@ function Hero() {
                     <img src={assets.Nessus} alt="" />
                   </li>
                   <li>
-                    <img src="https://img.informer.com/icons_mac/png/128/404/404676.png" alt="" />
+                    <img src={assets.burpSuite} alt="" />
                   </li>
                 </ul>
               </div>

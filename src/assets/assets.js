@@ -6,7 +6,7 @@ import bottomBack from "./Bottom-bg.png";
 import cybersecIcon from "./Cybersec-icon.svg";
 import cybersecBg from "./Cybersec-icon.svg";
 import GokulKrishna from "./GokulKrishna.jpeg";
-import burpSuite from "./burpsuite.svg";
+import burpSuite from "./Burpsuite.png";
 import linux from "./linux.svg";
 import splunk from "./splunk.png";
 import Tor from "./Tor.svg";
