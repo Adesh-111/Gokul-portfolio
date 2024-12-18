@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap");
 
 .quote-container {
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
   flex-direction: column;

@@ -5,6 +5,7 @@
   align-items: center;
   box-sizing: border-box;
   overflow: hidden;
+  overflow-x: hidden;
 }
 
 .cybersec {

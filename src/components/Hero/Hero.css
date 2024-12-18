@@ -4,6 +4,7 @@
   background: url("../../assets/Bg-top.png");
   background-size: cover;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .hero .hero-title {

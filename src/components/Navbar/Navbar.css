@@ -8,12 +8,9 @@ body{
   margin: 0;
   border: 0;
   background-color: #1d1d1d;
-  overflow-x: hidden;
+
 }
 
-[data-aos] {
-  overflow: hidden;
-}
 
 
 .navbar {
@@ -25,6 +22,7 @@ body{
   position: sticky;
   box-sizing: border-box;
   overflow: hidden;
+  overflow-x: hidden;
 }
 
 .navbar ul {
