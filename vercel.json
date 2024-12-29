@@ -4,7 +4,7 @@
   ],
   "redirects": [
     {
-      "source": "/(.*)",
+      "source": "http://gokul2x.me/(.*)",
       "destination": "https://gokul2x.me/$1",
       "permanent": true
     }
